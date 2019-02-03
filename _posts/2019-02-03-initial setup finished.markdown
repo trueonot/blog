@@ -25,6 +25,7 @@ github setup
   - add link for other networks
   - edit about page
   - add categories : smart home, python, automotive, autosar, CAN, MQTT, test, debug...
+  - add commit/push via tortoriseGit
 
 
 
