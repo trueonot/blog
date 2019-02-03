@@ -5,16 +5,56 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+#gems: [jekyll-paginate]
 # Site settings
 title: trueonot's Development Notes
+#paginate: 7
+#paginate_path: "page:num"
+layout: post
 email: trueonot@gmail.com
+permalink: /:categories/:title
 description: > # this means to ignore newlines until "baseurl:"
-  this is a trueonot's development's log powered by jekyll, hosted at github.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+  this is a trueonot's development's log powered by jekyll, hosted at github
+
+# mode: dev
+mode: dev
+url: https://trueonot.github.io/
+devurl: http://localhost/
+
 twitter_username: trueonot
 github_username:  trueonot
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+
+my:
+    displayName: trueonot
+    realName: Seung Seock, Yang
+    realName_kr: 양승석
+    jobTitle: "Automotive Software Developer"
+    contact:
+        qq: .
+        email: trueonot@gmail.com
+        github: http://www.github.com/trueonot
+        qzone: .
+        pinterest: .
+        tel: .
+        address:
+            .
+    skills:
+        frontend: ["HTML | Markdown", "CSS | SASS", "JS | jQuery", "Bootstrap"]
+        backend: ["PHP", "MySQL", "Redis", "Regex", "Laravel", "OSC"]
+        tools: ["Sublime Text", "Git | Github", "Linux", "Jekyll | Liquid"]
+defaults:
+  - scope:
+        path: ""
+        type: "posts"
+    values:
+        excerpt: "{{ page.content }} | slice: 0 300"
+  - scope:
+        path: ""
+        type: "qqGroupGuide"
+    values:
+        layout: markdownreader_bare

@@ -3,6 +3,7 @@ layout: post
 #title:  "Initial Setup finished"
 date:   2019-02-02 20:08:28 +0900
 categories: blogs
+excerpt: Initial setup and what Todo list 
 ---
 I've just finished my blogs setup on github.
 
