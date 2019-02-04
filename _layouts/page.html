@@ -10,11 +10,15 @@
     {% include header.html %}
 
     <section id="l-main">
-        <div class="container">
-            {{ content }}
-        </div>
+            <article class="row">
+                    
+                <div class="date col-lg-2 col-md-2 col-sm-2">
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                            {{content}} 
+                </div>
+            </article>
     </section>
-
     {% include footer.html %}
 </body>
 </html>

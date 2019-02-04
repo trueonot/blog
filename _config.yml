@@ -38,15 +38,15 @@ my:
         qq: .
         email: trueonot@gmail.com
         github: http://www.github.com/trueonot
-        qzone: .
-        pinterest: .
-        tel: .
-        address:
+        qzone: ..
+        pinterest: ..
+        tel: ..
+        address: ..
             .
     skills:
-        frontend: ["HTML | Markdown", "CSS | SASS", "JS | jQuery", "Bootstrap"]
-        backend: ["PHP", "MySQL", "Redis", "Regex", "Laravel", "OSC"]
-        tools: ["Sublime Text", "Git | Github", "Linux", "Jekyll | Liquid"]
+        frontend: ["C, C++", "AUTOSAR", "PERCEPTION", "Image Processing"]
+        backend: ["PHP", "JAVA", "PYTHON", "DOCKER"]
+        tools: ["Embedded System", "AUTOMOTIVE SOFTWARE", "OPERATING SYSTEM", "OSEK", "FUNCTIONAL SAFETY", ]
 defaults:
   - scope:
         path: ""
