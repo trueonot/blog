@@ -13,6 +13,7 @@ layout: page
 * [ ] Adjust div in index and about .. at css.
 * [ ] Apply paginations
 * [ ] reconstruct sub folders and template
+* [ ] Apply custom url. dev.trueonot.com?
 
 **To Study**
 * [ ] Jenkins with Emmbedded Target
