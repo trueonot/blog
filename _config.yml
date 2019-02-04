@@ -17,7 +17,7 @@ description: > # this means to ignore newlines until "baseurl:"
   this is a trueonot's development's log powered by jekyll, hosted at github
 
 # mode: dev
-mode: dev
+mode: git
 url: https://trueonot.github.io/
 devurl: http://localhost/
 
