@@ -6,7 +6,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: Georgia, 'Nanum Gothic', serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -432,7 +432,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, 'Nanum Gothic', serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -4389,7 +4389,7 @@ ul {
 }
 #l-main article .title {
   font: normal bold 4rem Georgia, serif;
-  font-family: 微软雅黑, Helvetica;
+  font-family: Helvetica;
   margin-bottom: 0.4rem;
   /*text-shadow: 2px 3px 0px #C1C1C1;*/
 }
@@ -4401,7 +4401,7 @@ ul {
 }
 #l-main article .excerpt {
   font-size: 2rem;
-  font-family: 微软雅黑, Helvetica;
+  font-family: Helvetica;
   letter-spacing: 0.2px;
   text-align: justify;
 }
