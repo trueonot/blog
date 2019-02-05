@@ -5,32 +5,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-#gems: [jekyll-paginate]
-# Site settings
 title: trueonot's Development Notes
-#paginate: 7
-#paginate_path: "page:num"
-layout: post
-email: trueonot@gmail.com
-permalink: /:categories/:title
 description: > # this means to ignore newlines until "baseurl:"
   this is a trueonot's development's log powered by jekyll, hosted at github
-
-# mode: dev
-mode: git
-url: https://trueonot.github.io/
-devurl: http://localhost/
 
 twitter_username: trueonot
 github_username:  trueonot
 
-# Build settings
-markdown: kramdown
-theme: minima
-
-
 my:
     displayName: trueonot
+    email: trueonot@gmail.com
     realName: Seung Seock, Yang
     realName_kr: 양승석
     jobTitle: "Automotive Software Developer"
@@ -47,6 +31,32 @@ my:
         frontend: ["C, C++", "AUTOSAR", "PERCEPTION", "Image Processing"]
         backend: ["PHP", "JAVA", "PYTHON", "DOCKER"]
         tools: ["Embedded System", "AUTOMOTIVE SOFTWARE", "OPERATING SYSTEM", "OSEK", "FUNCTIONAL SAFETY", ]
+
+
+# Site settings
+
+
+# mode: dev
+#mode: git
+#url: https://trueonot.github.io/
+#devurl: http://localhost/
+
+url: https://trueonot.github.io/
+baseurl: /
+
+layout: post
+email: trueonot@gmail.com
+permalink: /:categories/:title
+
+# Build settings
+markdown: kramdown
+theme: minima
+highlighter:  rouge
+
+#gems: [jekyll-paginate]
+#paginate: 10
+#paginate_path: "page:num"
+
 defaults:
   - scope:
         path: ""

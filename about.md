@@ -3,11 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-{% include mode_switcher.html %}
 {% assign my = site.my %}
 <div class="row" id="about">
     <header id="title">
-        <img src="{{ crturl }}images/trueonot.jpg">
+        <img src="{{ site.baseurl }}images/trueonot.jpg">
         <h1>{{ my.realName_kr }} | <small>{{ my.jobTitle | upcase }}</small></h1>
     </header>
 
@@ -55,7 +54,7 @@ permalink: /about/
 
     <section id="action">
         <h2>MORE</h2>
-        <a href="{{ crturl }}resume">resume</a>
+        <a href="{{ site.baseurl }}resume">resume</a>
         <span> / </span>
         <a href="mailto:{{ my.contact.email }}">trueonot@gmail.com</a>
     </section>
