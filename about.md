@@ -6,7 +6,7 @@ permalink: /about/
 {% assign my = site.my %}
 <div class="row" id="about">
     <header id="title">
-        <img src="{{ site.baseurl }}images/trueonot.jpg">
+        <img src="/images/trueonot.jpg">
         <h1>{{ my.realName_kr }} | <small>{{ my.jobTitle | upcase }}</small></h1>
     </header>
 
@@ -54,7 +54,7 @@ permalink: /about/
 
     <section id="action">
         <h2>MORE</h2>
-        <a href="{{ site.baseurl }}resume">resume</a>
+        <a href="/resume">resume</a>
         <span> / </span>
         <a href="mailto:{{ my.contact.email }}">trueonot@gmail.com</a>
     </section>
