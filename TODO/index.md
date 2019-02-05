@@ -15,13 +15,16 @@ layout: page
 * [ ] reconstruct sub folders and template
 * [ ] Apply custom url. dev.trueonot.com?
 
-**To Study**
-* [ ] Jenkins with Emmbedded Target
-* [ ] unit test with python for embedded target
-* [ ] Jupyter Notebook for python and machine learning
+**To Docker**
 * [ ] docker for web serve
 * [ ] docker for jupyter 
 * [ ] dockdr for license server
+
+**For Study**
+* [ ] Jenkins with Emmbedded Target
+* [ ] unit test with python for embedded target
+* [ ] Jupyter Notebook for python and machine learning
+* [ ] Machine Learning
 
 **For coinbot**
 * [ ] adjust coinbot with crontab
