@@ -14,6 +14,7 @@ layout: page
 * [ ] Apply paginations
 * [ ] reconstruct sub folders and template
 * [ ] Apply custom url. dev.trueonot.com?
+* [ ] Adjust Timezone.
 
 **To Docker**
 * [ ] docker for web serve
@@ -25,6 +26,7 @@ layout: page
 * [ ] unit test with python for embedded target
 * [ ] Jupyter Notebook for python and machine learning
 * [ ] Machine Learning
+* [X] Install jupyter and get used to it.
 
 **For coinbot**
 * [ ] adjust coinbot with crontab

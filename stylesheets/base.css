@@ -4437,7 +4437,7 @@ ul {
   margin-left: 21.5rem;
   padding-bottom: 1rem;
   position: relative;
-  top: -5rem;
+  top: -10rem;
 }
 #l-main #about section h2 {
   font-size: 4rem;
@@ -4452,7 +4452,8 @@ ul {
   margin-top: -2rem;
   border-bottom: none;
 }
-#l-main #about section#intro p {
+
+#l-main #about section#intro div {
   font-size: 2rem;
 }
 #l-main #about section#skillsets i {
@@ -4629,7 +4630,7 @@ ul.tags {
 }
 #l-footer address {
   text-align: right;
-  padding-right: 2rem;
+  padding-right: 0rem;
 }
 #l-footer #rss {
   text-align: center;

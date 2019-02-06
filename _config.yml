@@ -9,24 +9,15 @@ title: trueonot's Development Notes
 description: > # this means to ignore newlines until "baseurl:"
   this is a trueonot's development's log powered by jekyll, hosted at github
 
-twitter_username: trueonot
-github_username:  trueonot
-email: trueonot@gmail.com
 my:
     displayName: trueonot
     email: trueonot@gmail.com
     realName: Seung Seock, Yang
-    realName_kr: 양승석
     jobTitle: "Automotive Software Developer"
     contact:
-        qq: .
         email: trueonot@gmail.com
         github: http://www.github.com/trueonot
-        qzone: ..
-        pinterest: ..
-        tel: ..
-        address: ..
-            .
+
     skills:
         frontend: ["C, C++", "AUTOSAR", "PERCEPTION", "Image Processing"]
         backend: ["PHP", "JAVA", "PYTHON", "DOCKER"]

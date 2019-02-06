@@ -1,24 +1,22 @@
 ---
-layout: page
+layout: base
 title: About
-permalink: /about/
 ---
 {% assign my = site.my %}
 <div class="row" id="about">
     <header id="title">
         <img src="/images/trueonot.jpg">
-        <h1>{{ my.realName_kr }} | <small>{{ my.jobTitle | upcase }}</small></h1>
+        <h1>{{ my.displayName }} | <small>{{ my.jobTitle | upcase }}</small></h1>
     </header>
 
-
-    <section id="intro">
-      
+    <section id="intro">      
         <h2>Intro</h2>
-			<p> * Name : trueonot</p>
-			<p>* email : trueonot@gmail.com</p>
-			<p>* Steem : http://steemit.com/@trueonot</p>
-			<p>* Twitter : @trueonot (Not use)</p>
-			<p>* facebook : trueonot (Not use)</p>
+        <div>
+            Specialized Embedded SW engineer for Automotive industry from navigation to ECU with AUTOSAR. <br/>
+
+            Looking for a chance to move on next stage based on 13 years automotive industry experience. I've also familiar with web based developing with PHP, JAVA, JS, ASP so on from my university experience. <br/>
+            I am studying now on machine learning and image processing
+        </div>
     </section>
 
     <section id="skillsets">
@@ -47,16 +45,7 @@ permalink: /about/
         <h2>FIND ME ON</h2>
         <ul>
             <li><a href="{{ my.contact.github }}"><i class="fa fa-github"></i></a></li>
-            <li><a href="{{ my.contact.qzone }}"><i class="fa fa-qq"></i></a></li>
-            <li><a href="{{ my.contact.pinterest }}"><i class="fa fa-pinterest"></i></a></li>
         </ul>
-    </section>
-
-    <section id="action">
-        <h2>MORE</h2>
-        <a href="/resume">resume</a>
-        <span> / </span>
-        <a href="mailto:{{ my.contact.email }}">trueonot@gmail.com</a>
     </section>
 
 </div>
