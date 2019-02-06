@@ -7,7 +7,7 @@ layout: page
 * [ ] remove not used files
 * [ ] Apply Sub-Folders
 * [ ] Adjust social Networks
-* [ ] Adjust About Page
+* [X] Adjust About Page
 * [ ] Add Categories for my skill set
 * [x] Find a way commit/push via TortoiseGit.
 * [ ] Adjust div in index and about .. at css.
