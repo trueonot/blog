@@ -19,9 +19,9 @@ my:
         github: http://www.github.com/trueonot
 
     skills:
-        frontend: ["C, C++", "AUTOSAR", "PERCEPTION", "Image Processing"]
-        backend: ["PHP", "JAVA", "PYTHON", "DOCKER"]
-        tools: ["Embedded System", "AUTOMOTIVE SOFTWARE", "OPERATING SYSTEM", "OSEK", "FUNCTIONAL SAFETY", ]
+        language: ["C, C++", "python", "Assembler", "PHP", "JSP", "JAVA", "ASP", "Javascript"]
+        automotive: ["AUTOSAR", "CAN", "ISO 14229", "ISO 26262(functional Safety)", "OSEK", "Diagnostics", "Autonmous Driving", "Perception"]
+        knowledge: ["Embedded System", "AUTOMOTIVE SOFTWARE", "OPERATING SYSTEM", "FUNCTIONAL SAFETY", "Debuggin", "CI/CD", "Software Engineering", "Linux", "RTOS", ]
 
 
 # Site settings
