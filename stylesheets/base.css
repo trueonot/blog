@@ -4463,14 +4463,15 @@ ul {
 }
 #l-main #about section#skillsets ul {
   margin-top: 2rem;
+  line-height:400%;
 }
 #l-main #about section#skillsets ul li {
   font-size: 2rem;
   display: inline;
-  background-color: #000000;
+  background-color: #1C3340;
   color: white;
   border: 1px solid #1C3340;
-  padding: 3px;
+  padding: 5px;
   border-radius: 4px;
   margin-left: 1rem;
 }

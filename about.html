@@ -22,19 +22,19 @@ title: About
     <section id="skillsets">
         <h2>language</h2>
         <ul id="frontend">
-            <i class="fa fa-tv">language</i>
+            <i class="fa fa-tv"> Language</i>
             {% for skill in my.skills.language %}
             <li>{{ skill }}</li>
             {% endfor %}
         </ul>
         <ul id="automotive">
-            <i class="fa fa-cog">automotive</i>
+            <i class="fa fa-car"> Automotive</i>
             {% for skill in my.skills.automotive %}
             <li>{{ skill }}</li>
             {% endfor %}
         </ul>
         <ul id="knowledge">
-            <i class="fa fa-wrench">knowledge</i>
+            <i class="fa fa-book"> Knowledge</i>
             {% for skill in my.skills.knowledge %}
             <li>{{ skill }}</li>
             {% endfor %}
@@ -45,6 +45,7 @@ title: About
         <h2>FIND ME ON</h2>
         <ul>
             <li><a href="{{ my.contact.github }}"><i class="fa fa-github"></i></a></li>
+            <li><a href="{{ my.contact.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
         </ul>
     </section>
 

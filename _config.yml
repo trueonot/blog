@@ -17,11 +17,12 @@ my:
     contact:
         email: trueonot@gmail.com
         github: http://www.github.com/trueonot
+        linkedin: https://www.linkedin.com/in/trueonot/
 
     skills:
         language: ["C, C++", "python", "Assembler", "PHP", "JSP", "JAVA", "ASP", "Javascript"]
-        automotive: ["AUTOSAR", "CAN", "ISO 14229", "ISO 26262(functional Safety)", "OSEK", "Diagnostics", "Autonmous Driving", "Perception"]
-        knowledge: ["Embedded System", "AUTOMOTIVE SOFTWARE", "OPERATING SYSTEM", "FUNCTIONAL SAFETY", "Debuggin", "CI/CD", "Software Engineering", "Linux", "RTOS", ]
+        automotive: ["AUTOSAR", "CAN", "ISO 14229", "ISO 26262(functional Safety)", "OSEK/VDX", "Diagnostics", "Autonmous Driving", "Perception"]
+        knowledge: ["Embedded System", "Automotive Software", "Operating System", "Functional Safety", "Debugging", "CI/CD", "Software Engineering", "Linux", "RTOS", ]
 
 
 # Site settings
